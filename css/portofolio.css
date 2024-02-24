@@ -1,0 +1,71 @@
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: rgba(46, 47, 66, 0.4);
+  --grey: rgba(46, 47, 66, 0.7);
+  --white: #fff;
+  --dairy: #fcfcfc;
+
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family);
+}
+ul {
+  list-style-type: none;
+}
+.body-sectio {
+  font-family: var(--font-family);
+  font-weight: ;
+}
+a:active {
+  color: var(--ocean);
+}
+a:hover {
+  color: var(--green);
+}
+.logo-web {
+  color: var(--iris);
+  font-family: var(--second-family);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo-studio {
+  font-family: var(--second-family);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--navy-blue);
+}
+.portofolio-nav-bar {
+  color: var(--slate);
+}
+.button-all:hover {
+  background-color: var(--iris);
+}
+.button-website:hover {
+  background-color: var(--iris);
+}
+.button-app:hover {
+  background-color: var(--iris);
+}
+.button-marketing:hover {
+  background-color: var(--iris);
+}
