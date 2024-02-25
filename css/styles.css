@@ -39,11 +39,32 @@ a {
 }
 
 .button:hover {
-  background-color: var(--iris);
+  background-color: var(--green);
+}
+
+.box-body {
 }
 .body-section {
+  display: flex;
+  justify-content: center;
   font-family: var(--font-family);
-  font-weight: ;
+}
+/* Header Section*/
+.box-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-webstudio {
+  width: 115px;
+  height: 24px;
+  display: flex;
+  margin-right: 10px;
 }
 .logo-web {
   font-family: var(--second-family);
@@ -62,34 +83,173 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--navy-blue);
+  margin-left: 5px;
+}
+.container-spc {
+  display: flex;
+  justify-content: center;
+}
+.nav-bar {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+.container-contacts {
+  display: flex;
+  justify-content: end;
+}
+.container-email {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+.container-phone {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+.contact {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+/* Hero Section*/
+.box-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1440px;
+  height: 600px;
+  main-height: 50vh;
+  background-color: var(--navy-blue);
+}
+.container-button {
+  display: flex;
+  justify-content: center;
 }
 .hero-section {
-  background-color: var(--navy-blue);
+  width: 80%;
+  text-align: center;
 }
 .hero-title {
   color: var(--white);
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.button {
+  background-color: var(--iris);
+  color: var(--white);
+  padding: var(--iris) 16px 32px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* Strategy Section */
+.box-strategy {
+  display: flex;
+  justify-content: center;
+}
+.container-feature {
+  display: flex;
+  flex-direction: row;
+  width: 1128px;
+  height: 104px;
+}
+/* What are we doing Section*/
+.box-what-are-we-doing {
+}
+.what-are-we-doing-title {
+  display: flex;
+  justify-content: center;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--navy-blue);
+}
+
+.container-svc-img {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+/* Our team Section */
+.container-our-team-title {
+  display: flex;
+  justify-content: center;
+}
+.our-team {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--navy-blue);
+}
+.container-our-team-picture {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.card-name {
+  display: flex;
+  justify-content: center;
+}
+.p {
+  display: flex;
+  justify-content: center;
+}
+/* Footer Section*/
+.box-footer {
+  width: 1440px;
+  height: 312px;
 }
 .footer-section {
   background-color: var(--navy-blue);
 }
+.container-footer-logo {
+  width: 115px;
+  height: 24px;
+  display: flex;
+  margin-left: 15px;
+}
 .footer-web {
   font-family: var(--second-family);
-  font-weight: 800;
   font-size: 18px;
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
+  margin-top: 10px;
 }
 .footer-studio {
   font-family: var(--second-family);
-  font-weight: 800;
   font-size: 18px;
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--cloud);
+  margin-top: 10px;
+  margin-left: 5px;
 }
+
 .footer-paragraph {
   font-family: var(--font-family);
   font-weight: 400;
@@ -97,56 +257,7 @@ a {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: var(--cloud);
-}
-
-/* END OF BASE STYLES */
-.container-webstudio {
-  display: flex;
-}
-.container-spc {
-  display: flex;
-  justify-content: center;
-}
-.container-contacts {
-  display: flex;
-  justify-content: end;
-}
-.container-hero-title {
-  display: flex;
-  justify-content: center;
-}
-.container-button {
-  display: flex;
-  justify-content: center;
-}
-.container-strategy {
-  display: flex;
-  justify-content: center;
-}
-.container-feature {
-  display: flex;
-  flex-direction: row;
-}
-.container-what-are-we-doing-title {
-  display: flex;
-  justify-content: center;
-}
-.container-svc-img {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  justify-content: space-evenly;
-}
-.container-our-team-title {
-  display: flex;
-  justify-content: center;
-}
-.container-our-team-picture {
-  display: flex;
-  justify-content: center;
-  justify-content: space-evenly;
-}
-.container-footer-logo {
-  display: flex;
-  flex-direction: row;
+  width: 264px;
+  height: 72px;
+  margin: 10px;
 }
