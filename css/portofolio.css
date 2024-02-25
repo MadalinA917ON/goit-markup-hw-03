@@ -41,7 +41,9 @@ a:hover {
   background: var(--white);
 }
 .box-heder {
-  margin-left: 250px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
 }
 .logo-web {
   color: var(--iris);
@@ -60,7 +62,6 @@ a:hover {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--navy-blue);
-  margin-left: -2px;
 }
 .portofolio-nav-bar {
   color: var(--slate);
@@ -79,14 +80,14 @@ a:hover {
 }
 .box-heder {
   display: flex;
+  justify-content: center;
   justify-content: space-evenly;
-  width: 1440px;
-  height: 72px;
 }
 .container-heder-nav {
   display: flex;
   justify-content: center;
   justify-content: space-evenly;
+  gap: 40px;
   width: 261px;
   height: 24px;
   font-family: var(--font-family);
@@ -115,15 +116,13 @@ a:hover {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: var(--slate);
-  margin-left: 20px;
 }
 .container-buttons {
   display: flex;
   justify-content: center;
-  justify-content: space-evenly;
-  margin-left: 670px;
-  width: 586px;
+  gap: 24px;
   height: 48px;
+  align-items: center;
 }
 /* Row 1 */
 

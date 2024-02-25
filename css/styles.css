@@ -52,16 +52,19 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 40px;
 }
 .main-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 76px;
 }
 .container-webstudio {
   width: 115px;
   height: 24px;
   display: flex;
+  justify-content: flex-start;
   margin-right: 10px;
 }
 .logo-web {
@@ -97,7 +100,7 @@ a:hover {
 }
 .container-contacts {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .container-email {
   font-family: var(--font-family);
@@ -106,6 +109,7 @@ a:hover {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: var(--slate);
+  margin-left: 200px;
 }
 .container-phone {
   font-family: var(--font-family);
@@ -153,6 +157,10 @@ a:hover {
   padding: var(--iris) 16px 32px;
   border-radius: 4px;
   cursor: pointer;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
 }
 /* Strategy Section */
 .box-strategy {
@@ -188,6 +196,8 @@ a:hover {
 }
 /* Our team Section */
 .conainer-our-team {
+  width: 1440px;
+  height: 732px;
   background-color: var(--cloud);
 }
 .container-our-team-title {
@@ -218,47 +228,43 @@ a:hover {
   justify-content: center;
 }
 /* Footer Section*/
-.box-footer {
+.footer__wrapper {
+  display: flex;
+  flex-direction: column;
   width: 1440px;
   height: 312px;
-}
-.footer-section {
   background-color: var(--navy-blue);
 }
-.container-footer-logo {
-  width: 115px;
-  height: 24px;
-  display: flex;
-  margin-left: 20px;
+.footer__logo {
+  display: inline-block;
+  margin: 0 10px;
 }
-.footer-web {
+.footer__logo-container {
   font-family: var(--second-family);
+  font-weight: 800;
   font-size: 18px;
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
-  margin-top: 15px;
+  margin-left: 156px;
 }
-.footer-studio {
+.logo-studio {
   font-family: var(--second-family);
+  font-weight: 800;
   font-size: 18px;
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--cloud);
-  margin-top: 10px;
-  margin-left: 5px;
+  margin-left: -1px;
 }
-
-.footer-paragraph {
-  text-decoration: none;
+.footer__paragraph {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: var(--cloud);
-  margin-left: 20px;
-  margin-bottom: 10px;
+  margin: 140px 1020px 100px 156px;
 }
