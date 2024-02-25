@@ -22,11 +22,11 @@ h5,
 h6 {
   font-family: var(--font-family);
 }
-ul {
-  list-style-type: none;
-}
-li {
-  list-style-type: none;
+ul,
+li,
+a {
+  list-style: none;
+  text-decoration: none;
 }
 a:active {
   color: var(--ocean);
@@ -34,15 +34,13 @@ a:active {
 a:hover {
   color: var(--green);
 }
-a {
-  text-decoration: none;
-}
-
 .button:hover {
   background-color: var(--green);
 }
-
-.box-body {
+.section-main-page {
+  width: 1440px;
+  height: 2592px;
+  background: var(--white);
 }
 .body-section {
   display: flex;
@@ -189,6 +187,9 @@ a {
   justify-content: space-evenly;
 }
 /* Our team Section */
+.conainer-our-team {
+  background-color: var(--cloud);
+}
 .container-our-team-title {
   display: flex;
   justify-content: center;
@@ -228,7 +229,7 @@ a {
   width: 115px;
   height: 24px;
   display: flex;
-  margin-left: 15px;
+  margin-left: 20px;
 }
 .footer-web {
   font-family: var(--second-family);
@@ -237,7 +238,7 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
-  margin-top: 10px;
+  margin-top: 15px;
 }
 .footer-studio {
   font-family: var(--second-family);
@@ -251,13 +252,13 @@ a {
 }
 
 .footer-paragraph {
+  text-decoration: none;
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: var(--cloud);
-  width: 264px;
-  height: 72px;
-  margin: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
 }

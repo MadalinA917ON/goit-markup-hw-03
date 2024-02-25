@@ -1,0 +1,21 @@
+.box {
+  margin: 10px;
+  color: black;
+  width: 1000px;
+  height: 2000px;
+}
+.container {
+  background-color: black;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+.name {
+  color: blueviolet;
+  margin-top: 70px;
+  margin-left: 70px;
+}
+li,
+ul {
+  text-decoration: none;
+  list-style-type: none;
+}
